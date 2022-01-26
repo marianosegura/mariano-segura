@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;  /* for the single page smooth code scroll */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  transition: width 1s ease-in-out;
+}
+
+@media (max-width: 512px) {
+.home {
+  width: 100%;
+} 
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  background: #191d46;
+  color: #fffefb;
+  cursor: pointer;
+  border-radius: 100%;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+  display: flex;
+  transition: transform .3s;
+}
+
+.back-to-top:hover {
+  background: #19e4d9;
+  transform: scale(1.2);
+}

@@ -1,0 +1,38 @@
+import React from 'react';
+import WorkCard from './work-card/WorkCard';
+import './Work.css';
+
+const works = [
+  {
+    company: "Goggle",
+    role: "Software Engineer",
+    dateStart: "02-02-2020",
+    dateEnd: "Present",
+    companyLogo: "data:image/png;base64,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",
+    description: "Worked in the search engine"
+  },
+  {
+    company: "Amazon",
+    role: "Frontend Web Developer",
+    dateStart: "02-02-2020",
+    dateEnd: "Present",
+    companyLogo: "https://thumbs.dreamstime.com/b/amazon-logo-editorial-vector-illustration-market-136495269.jpg",
+    description: "Redesign of the main landing page"
+  }
+];
+
+function Work() {
+  return (
+    <div className='work'>
+      <label className='section-title'>Work</label>
+
+      <div className='work-list'>
+        {works.map(work => 
+          <WorkCard key={work.company} {...work} />
+        )}
+      </div>
+    </div>
+  )
+}
+
+export default Work

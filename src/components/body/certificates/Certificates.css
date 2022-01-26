@@ -1,0 +1,24 @@
+.certificates {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.certificates-carousel {
+  width: 60%;
+  margin: auto;
+  transition: width 1s ease-in-out;
+}
+
+@media (max-width: 1300px) {
+  .certificates-carousel {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .certificates-carousel {
+    width: 100%;
+  }
+}

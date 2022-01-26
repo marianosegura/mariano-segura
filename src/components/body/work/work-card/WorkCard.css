@@ -1,0 +1,33 @@
+.work-card {
+  padding: 8px;
+  width: 45%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.work-logo {
+  width: 30%;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} 
+
+.work-dates {
+  color: grey;
+}
+
+.work-description {
+  text-align: left;
+  max-width: 80%;
+}
+
+@media (max-width: 720px) {
+.work-card {
+  width: 100%;
+}
+}

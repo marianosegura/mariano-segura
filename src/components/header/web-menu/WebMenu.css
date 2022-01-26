@@ -1,0 +1,35 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #fffefb;
+  padding: 5px 15px;
+  padding-top: 25px;
+  z-index: 11;
+}
+
+.web-option {
+  display: block;
+  float: left;
+  font-size: 20px;
+  margin-right: 16px; 
+  transition: transform .2s;
+}
+.web-option:hover {
+  transform: scale(1.2);
+}
+.web-option:last-child {
+  margin-right: 0px;
+}
+.web-option a {
+  display: flex;
+  align-items: center;
+}
+
+.option-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+}
+
+

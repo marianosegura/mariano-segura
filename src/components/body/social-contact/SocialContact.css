@@ -1,0 +1,25 @@
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.social-icon-div {
+  padding: 6px;
+  margin: 6px;
+}
+
+.social-icon {
+  height: 50px;
+  transition: transform .3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 720px) {
+.social-icon {
+  height: 32px;
+}
+}

@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.footer-highlight {
+  color: #0fb1c6;
+}
+.footer-highlight:hover {
+  color: #19e4d9;
+}
