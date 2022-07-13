@@ -3,14 +3,14 @@ import './SocialContact.css';
 
 const socialMediaContacts = [
   {
-    platform: "Github",
-    link: "https://github.com/marianosegura",
-    icon: require('../../../assets/icons/github.png')  // Github Icon by Unicons Font on Iconscout
-  },
-  {
     platform: "Linkedin",
     link: "https://www.linkedin.com/in/mariano-segura-b55a3322b/",
     icon: require('../../../assets/icons/linkedin.png')  // Linkedin Icon by Unicons Font on Iconscout
+  },
+  {
+    platform: "Github",
+    link: "https://github.com/marianosegura",
+    icon: require('../../../assets/icons/github.png')  // Github Icon by Unicons Font on Iconscout
   },
   {
     platform: "Facebook",

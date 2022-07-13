@@ -4,7 +4,13 @@ import './Skillcard.css';
 const iconExceptions = [
   "MobX", "EJS", "Semantic UI", "Postman", "MongoDB Atlas", 
   "Angular Material", "SQL Server", "SendGrid", "Cloudinary", 
-  "JSS", "Mapbox", "SignalR", "Formik", "NgRx"
+  "JSS", "Mapbox", "SignalR", "Formik", "NgRx", "Mongoose", 
+  "Skaffold", "Entity Framework", "NATS Streaming", "NGINX Ingress",
+  "Swagger", "Stripe", "Github Actions", "gRPC", "MediatR",
+  "Dapper", "AutoMapper", "Fluent Validation", "RabbitMQ",
+  "MassTransit", "Ocelot", "Portainer", "Docker Compose",
+  "Express Validator", "OptimalBits Bull", "Sideway JOI",
+  "Passport.js", "Helmet.js"
 ];
 
 function SkillCard({ name, icon }) {

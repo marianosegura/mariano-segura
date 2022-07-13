@@ -9,7 +9,7 @@ function Contact() {
         <i className="fi fi-rr-user option-icon"></i>
         Contact
       </label>
-      <p>Want to get in touch? Email me at <strong>lmarianosegura@gmail.com</strong> or contact me on my social media:</p>
+      <p>Want to get in touch? Email me at <strong>marianosegura.dev@gmail.com</strong> or contact me on my social media:</p>
       <SocialContact />
     </div>
   )
