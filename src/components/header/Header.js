@@ -9,7 +9,6 @@ function Header() {
 
   return (
     <div className='header'>
-      <div className='logo'></div>
 
       <div className='menu'>
         <div className='web-menu'>

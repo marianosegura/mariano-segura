@@ -13,6 +13,11 @@ const socialMediaContacts = [
     icon: require('../../../assets/icons/github.png')  // Github Icon by Unicons Font on Iconscout
   },
   {
+    platform: "Codepen",
+    link: "https://codepen.io/marianosegura",
+    icon: require('../../../assets/icons/codepen.png')  // Codepen Icon by Font Awesome on Iconscout
+  },
+  {
     platform: "Facebook",
     link: "https://www.facebook.com/luismariano.segura",
     icon: require('../../../assets/icons/facebook.png')  // Facebook Icon by Unicons Font on Iconscout

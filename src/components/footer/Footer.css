@@ -4,13 +4,15 @@ footer {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin-top: -20px;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
 .footer-highlight {
-  color: #0fb1c6;
+  color: rgb(0, 181, 184);
 }
-.footer-highlight:hover {
-  color: #19e4d9;
+
+footer a:hover .footer-highlight {
+  color: darkturquoise;
 }

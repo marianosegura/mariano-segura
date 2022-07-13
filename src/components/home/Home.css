@@ -5,15 +5,21 @@ html {
 .home {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 80%;
   margin: auto;
   transition: width 1s ease-in-out;
 }
 
-@media (max-width: 512px) {
-.home {
-  width: 100%;
-} 
+@media (max-width: 920px) {
+  .home {
+    width: 90%;
+  } 
+}
+
+@media (max-width: 720px) {
+  .home {
+    width: 100%;
+  } 
 }
 
 .back-to-top {
@@ -32,6 +38,6 @@ html {
 }
 
 .back-to-top:hover {
-  background: #19e4d9;
+  background: darkturquoise;
   transform: scale(1.2);
 }

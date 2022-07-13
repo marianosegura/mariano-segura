@@ -12,6 +12,10 @@ const images = [
     file: require('../../../assets/certificates/Microservices Architecture and Implementation on .NET 5 - Mehmet Ozkaya.jpg')
   },
   {
+    name: "Scrum Fundamentals Certified.jpg",
+    file: require('../../../assets/certificates/Scrum Fundamentals Certified.jpg')
+  },
+  {
     name: "The Modern React Bootcamp - Colt Steele.png",
     file: require('../../../assets/certificates/The Modern React Bootcamp - Colt Steele.png')
   },
@@ -26,10 +30,6 @@ const images = [
   {
     name: "The Web Developer Bootcamp 2022 - Colt Steele.png",
     file: require('../../../assets/certificates/The Web Developer Bootcamp 2022 - Colt Steele.png')
-  },
-  {
-    name: "Scrum Fundamentals Certified.jpg",
-    file: require('../../../assets/certificates/Scrum Fundamentals Certified.jpg')
   },
   {
     name: "Introduction to Git - DataCamp.jpg",

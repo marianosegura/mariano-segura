@@ -32,6 +32,10 @@
   border-radius: 4px;
   margin-right: 5px;
   margin-bottom: 4px;
+  transition: all 0.07s ease-in;
+}
+.project-tag:hover {
+  transform: scale(1.1);
 }
 
 .project-links {
@@ -43,14 +47,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right top, #027bb2, #0098c8, #00b4d6, #00d0dd, #19ecdd);
+  background-image: linear-gradient(to right top, #026897, #027bb2, #0098c8, #00aacc, #00b4d6, #19ecdd);
   color: white !important;
   width: max-content;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 16px;
-  margin-right: 6px;
+  margin-right: 8px;
+  transition: all 0.1s ease-in-out;
 }
+.project-link:hover {
+  background-image: linear-gradient(#191d46, #191d46);
+  transform: scale(1.1);
+  font-size: 18px;
+}
+
 .project-link img {
   height: 16px;
   display: flex;

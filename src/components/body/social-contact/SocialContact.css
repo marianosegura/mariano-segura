@@ -10,16 +10,11 @@
 }
 
 .social-icon {
-  height: 50px;
-  transition: transform .3s;
+  height: 70px;
+  transition: transform .1s ease-in;
 }
 
 .social-icon:hover {
   transform: scale(1.15);
-}
-
-@media (max-width: 720px) {
-.social-icon {
-  height: 32px;
-}
+  filter: invert(78%) sepia(39%) saturate(5125%) hue-rotate(131deg) brightness(92%) contrast(101%);
 }

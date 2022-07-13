@@ -22,8 +22,12 @@
 }
 
 .menu-icon {
-  font-size: 24px;
+  font-size: 34px;
   cursor: pointer;
+  transition: all 0.2s;
+}
+.menu-icon:hover {
+  font-size: 38px;
 }
 
 .mobile-menu {
