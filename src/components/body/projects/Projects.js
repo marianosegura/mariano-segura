@@ -5,10 +5,76 @@ import './Projects.css';
 
 const projects = [
   {
+    id: 5,
+    title: "Tickets Microservices",
+    about: "Tickets e-commerce website built using microservices. Made with Node.js (Express.js), React (Next.js), NATS Streaming, MongoDB. With configuration files to be deployed with Kubernetes (Skaffold).",
+    tags: ["Node.js", "Express.js", "Typescript", "Express Validator", "Docker", "Kubernetes", "Skaffold", "NATS Streaming", "NGINX Ingress", "Mongoose", "Jest", "Stripe", "Next.js", "MongoDB", "Redis", "Bull", "Github Actions"],
+    githubUrl: "https://github.com/marianosegura/tickets-microservices",
+    images: [ 
+      {
+        name: "tickets-1.png",
+        file: require('../../../assets/screenshots/tickets-1.png')
+      },
+      {
+        name: "tickets-2.png",
+        file: require('../../../assets/screenshots/tickets-2.png')
+      },
+      {
+        name: "tickets-3.png",
+        file: require('../../../assets/screenshots/tickets-3.png')
+      },
+      {
+        name: "tickets-4.png",
+        file: require('../../../assets/screenshots/tickets-4.png')
+      },
+      {
+        name: "tickets-5.png",
+        file: require('../../../assets/screenshots/tickets-5.png')
+      },
+      {
+        name: "tickets-6.png",
+        file: require('../../../assets/screenshots/tickets-6.png')
+      },
+      {
+        name: "tickets-7.png",
+        file: require('../../../assets/screenshots/tickets-7.png')
+      },
+    ]
+  },
+  {
+    id: 6,
+    title: "Shop Microservices",
+    about: "Shop website built using microservices. Made with ASP.NET 5, RabbitMQ (with MassTransit), gRPC, Ocelot Gateway, Razor Pages, MongoDB, Redis, PostgreSQL and SQL Server. With configuration files to be deployed with Docker Compose.",
+    tags: ["ASP.Net Core", "RabbitMQ", "Docker", "Docker Compose", "gRPC", "Entity Framework", "AutoMapper", "Fluent Validation", "MongoDB", "Redis", "PostgreSQL", "SQL Server", "MassTransit", "Ocelot", "MediatR", "Dapper", "Razor Pages", "Portainer"],
+    githubUrl: "https://github.com/marianosegura/Shop-Microservices",
+    images: [ 
+      {
+        name: "netshop-1.png",
+        file: require('../../../assets/screenshots/netshop-1.png')
+      },
+      {
+        name: "netshop-2.png",
+        file: require('../../../assets/screenshots/netshop-2.png')
+      },
+      {
+        name: "netshop-3.png",
+        file: require('../../../assets/screenshots/netshop-3.png')
+      },
+      {
+        name: "netshop-4.png",
+        file: require('../../../assets/screenshots/netshop-4.png')
+      },
+      {
+        name: "netshop-5.png",
+        file: require('../../../assets/screenshots/netshop-5.png')
+      },
+    ]
+  },
+  {
     id: 3,
     title: "Reactivities",
     about: "Activity-based social media website. Includes features such as email registration confirmation, infinite scrolling and live comments chat (websockets).",
-    tags: ["React", "Typescript", "MobX", "Semantic UI", "Formik", ".Net Core", "SignalR", "SendGrid", "Cloudinary", "Entity Framework", "JWT", "PostgreSQL"],
+    tags: ["React", "Typescript", "MobX", "Semantic UI", "Formik", "ASP.Net Core", "SignalR", "SendGrid", "Cloudinary", "Entity Framework", "JWT", "PostgreSQL"],
     demoUrl: "https://the-reactivities.herokuapp.com/",
     githubUrl: "https://github.com/marianosegura/Reactivities",
     images: [ 
