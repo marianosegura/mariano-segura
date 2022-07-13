@@ -11,6 +11,7 @@ import './Body.css';
 function Body() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
+    Aos.refresh();
   }, []);
 
   return (
