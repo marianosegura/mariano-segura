@@ -11,7 +11,7 @@ const iconExceptions = [
   "Dapper", "AutoMapper", "Fluent Validation", "RabbitMQ",
   "MassTransit", "Ocelot", "Portainer", "Docker Compose",
   "Express Validator", "Bull", "joi",
-  "Passport.js", "Helmet.js"
+  "Passport.js", "Helmet.js", "Nodemon"
 ];
 
 function SkillCard({ name, icon, url }) {

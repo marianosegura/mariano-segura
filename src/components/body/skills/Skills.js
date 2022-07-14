@@ -42,6 +42,7 @@ const skillsGroups = [
       { name: "RabbitMQ", icon: "", url: "https://www.rabbitmq.com/" },
       { name: "NGINX Ingress", icon: "", url: "https://github.com/nginxinc/kubernetes-ingress" },
       { name: "Ocelot", icon: "", url: "https://github.com/ThreeMammals/Ocelot" },
+      { name: "Nodemon", icon: "", url: "https://nodemon.io/" },
       { name: "Mongoose", icon: "", url: "https://mongoosejs.com/" },
       { name: "Express Validator", icon: "", url: "https://express-validator.github.io/docs/" },
       { name: "Bull", icon: "", url: "https://github.com/OptimalBits/bull" },
