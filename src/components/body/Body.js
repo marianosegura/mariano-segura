@@ -5,6 +5,7 @@ import About from './about/About';
 import Contact from './contact/Contact';
 import Projects from './projects/Projects';
 import Skills from './skills/Skills';
+import Work from './work/Work';
 import Certificates from './certificates/Certificates';
 import './Body.css';
 
@@ -18,6 +19,12 @@ function Body() {
     <div className='body'>
       <section id='about' data-aos="fade-down">
         <About />
+      </section>
+
+      <div className='separator' />
+
+      <section id='work' data-aos="fade-down">
+        <Work />
       </section>
       
       <div className='separator' />

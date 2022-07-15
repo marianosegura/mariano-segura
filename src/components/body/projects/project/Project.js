@@ -9,12 +9,12 @@ function Project({ title, about, tags, demoUrl, githubUrl, images }) {
         <label className='project-title'>{title}</label>  
 
         <div className='project-links'>
-          <a className='project-link' href={githubUrl} target="_blank" rel="noreferrer">
+          <a className='button-link' href={githubUrl} target="_blank" rel="noreferrer">
             <img src={require('../../../../assets/icons/github-white.png')} alt='github logo' style={{ height: "24px" }}/>
             Repo
           </a>
           {demoUrl && 
-            <a className='project-link' href={demoUrl} target="_blank" rel="noreferrer">
+            <a className='button-link' href={demoUrl} target="_blank" rel="noreferrer">
               <img src={require('../../../../assets/icons/globe.png')} alt='globe' />
               Try It!
             </a>

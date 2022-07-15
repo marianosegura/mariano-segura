@@ -5,6 +5,12 @@ function WebMenu() {
   return (
     <nav className='web'>
       <div className='web-option'>
+        <a href='#work'>
+          <i className="fi fi-rr-briefcase option-icon"></i>Work
+        </a>
+      </div>
+
+      <div className='web-option'>
         <a href='#projects'>
           <i className="fi fi-rr-browser option-icon"></i>Projects
         </a>
