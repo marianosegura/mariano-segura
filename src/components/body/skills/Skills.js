@@ -79,6 +79,7 @@ const skillsGroups = [
     skills: [
       { name: "Github", icon: "devicon-github-original colored", url: "https://github.com/" },
       { name: "Github Actions", icon: "", url: "https://github.com/features/actions" },
+      { name: "Diagrams.net", icon: "", url: "https://www.diagrams.net/" },
       { name: "Heroku", icon: "devicon-heroku-plain colored", url: "https://www.heroku.com/" },
       { name: "Firebase", icon: "devicon-firebase-plain colored", url: "https://firebase.google.com/" },
       { name: "AWS", icon: "devicon-amazonwebservices-original colored", url: "https://aws.amazon.com/" },
