@@ -10,7 +10,7 @@ const iconExceptions = [
   "Swagger", "Stripe", "Github Actions", "gRPC", "MediatR",
   "Dapper", "AutoMapper", "Fluent Validation", "RabbitMQ",
   "MassTransit", "Ocelot", "Portainer", "Docker Compose",
-  "Express Validator", "Bull", "joi",
+  "Express Validator", "Bull", "joi", "Figma",
   "Passport.js", "Helmet.js", "Nodemon"
 ];
 

@@ -87,6 +87,7 @@ const skillsGroups = [
       { name: "Stripe", icon: "", url: "https://stripe.com/" },
       { name: "Cloudinary", icon: "", url: "https://cloudinary.com/" },
       { name: "Mapbox", icon: "", url: "https://www.mapbox.com/" },
+      { name: "Figma", icon: "", url: "https://www.figma.com/" },
       { name: "VS Code", icon: "devicon-vscode-plain colored", url: "https://code.visualstudio.com/" },
       { name: "Visual Studio", icon: "devicon-visualstudio-plain colored", url: "https://visualstudio.microsoft.com/" },
       { name: "Portainer", icon: "", url: "https://www.portainer.io/" },
