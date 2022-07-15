@@ -71,6 +71,7 @@ const skillsGroups = [
       { name: "MySQL", icon: "devicon-mysql-plain colored", url: "https://www.mysql.com/" },
       { name: "SQL Server", icon: "", url: "https://www.microsoft.com/en-us/sql-server" },
       { name: "Redis", icon: "devicon-redis-plain colored", url: "https://redis.io/" },
+      { name: "Oracle Database", icon: "devicon-oracle-plain colored", url: "https://www.oracle.com/database/" },
     ]
   },
   {
