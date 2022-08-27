@@ -16,14 +16,14 @@ function MobileMenu({ isOpen, close }) {
         </div>
 
         <div className='mobile-option'>
-          <a href='#projects'>
-            <i className="fi fi-rr-browser option-icon"></i>Projects
+          <a href='#skills'>
+            <i className="fi fi-rr-pencil option-icon"></i>Skills
           </a>
         </div>
 
         <div className='mobile-option'>
-          <a href='#skills'>
-            <i className="fi fi-rr-pencil option-icon"></i>Skills
+          <a href='#projects'>
+            <i className="fi fi-rr-browser option-icon"></i>Projects
           </a>
         </div>
 

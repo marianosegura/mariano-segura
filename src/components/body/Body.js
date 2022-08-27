@@ -28,14 +28,13 @@ function Body() {
       </section>
       
       <div className='separator' />
-      <section id='projects' data-aos="fade-up-right">
-        <Projects />
-      </section>
-
-
-      <div className='separator' />
       <section id='skills' data-aos="fade-up-right">
         <Skills />
+      </section>
+
+      <div className='separator' />
+      <section id='projects' data-aos="fade-up-right">
+        <Projects />
       </section>
 
       <div className='separator' />

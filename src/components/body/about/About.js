@@ -9,7 +9,7 @@ function About() {
           Hello, I am
           <br />
           <br /> <span className='info-name'>Mariano Segura</span>
-          <br /> <span className='info-title'><em>Fullstack Developer</em></span>
+          <br /> <span className='info-title'><em>Full Stack Developer</em></span>
           <br />
           <br />
           I love everything web development

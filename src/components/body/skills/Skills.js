@@ -19,6 +19,8 @@ const skillsGroups = [
       { name: "JSS", icon: "", url: "https://cssinjs.org/?v=v10.9.1-alpha.2" },
       { name: "Formik", icon: "", url: "https://formik.org/" },
       { name: "EJS", icon: "", url: "https://ejs.co/" },
+      { name: "Blazor", icon: "", url: "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" },
+      { name: "Twig", icon: "", url: "https://twig.symfony.com/" },
       { name: "Next.js", icon: "devicon-nextjs-plain-wordmark colored", url: "https://nextjs.org/" },
       { name: "JQuery", icon: "devicon-jquery-plain colored", url: "https://jquery.com/" },
       { name: "HTML5", icon: "devicon-html5-plain colored", url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5" },
@@ -60,7 +62,8 @@ const skillsGroups = [
       { name: "Fluent Validation", icon: "", url: "https://docs.fluentvalidation.net/en/latest/" },
       { name: "C#", icon: "devicon-csharp-plain colored", url: "https://docs.microsoft.com/en-us/dotnet/csharp/" },
       { name: "Java", icon: "devicon-java-plain colored", url: "https://www.java.com/en/" },
-      { name: "Python", icon: "devicon-python-plain colored", url: "https://www.python.org/" }
+      { name: "Python", icon: "devicon-python-plain colored", url: "https://www.python.org/" },
+      { name: "PHP", icon: "devicon-php-plain colored", url: "https://www.php.net/" }
     ]
   },
   {
@@ -72,6 +75,7 @@ const skillsGroups = [
       { name: "SQL Server", icon: "", url: "https://www.microsoft.com/en-us/sql-server" },
       { name: "Redis", icon: "devicon-redis-plain colored", url: "https://redis.io/" },
       { name: "Oracle Database", icon: "devicon-oracle-plain colored", url: "https://www.oracle.com/database/" },
+      { name: "SQLite", icon: "", url: "https://www.sqlite.org/" },
     ]
   },
   {
@@ -94,6 +98,7 @@ const skillsGroups = [
       { name: "Portainer", icon: "", url: "https://www.portainer.io/" },
       { name: "Postman", icon: "", url: "https://www.postman.com/" },
       { name: "Swagger", icon: "", url: "https://swagger.io/" },
+      { name: "Drupal", icon: "devicon-drupal-plain colored", url: "https://www.drupal.org/" },
     ]
   }
 ];

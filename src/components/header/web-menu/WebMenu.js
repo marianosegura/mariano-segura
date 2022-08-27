@@ -11,14 +11,14 @@ function WebMenu() {
       </div>
 
       <div className='web-option'>
-        <a href='#projects'>
-          <i className="fi fi-rr-browser option-icon"></i>Projects
+        <a href='#skills'>
+          <i className="fi fi-rr-pencil option-icon"></i>Skills
         </a>
       </div>
 
       <div className='web-option'>
-        <a href='#skills'>
-          <i className="fi fi-rr-pencil option-icon"></i>Skills
+        <a href='#projects'>
+          <i className="fi fi-rr-browser option-icon"></i>Projects
         </a>
       </div>
 
