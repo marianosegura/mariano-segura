@@ -12,7 +12,7 @@ const iconExceptions = [
   "MassTransit", "Ocelot", "Portainer", "Docker Compose",
   "Express Validator", "Bull", "joi", "Figma",
   "Passport.js", "Helmet.js", "Nodemon", "Diagrams.net",
-  "SQLite", "Blazor", "Twig"
+  "SQLite", "Blazor", "Twig", "Nodemailer"
 ];
 
 function SkillCard({ name, icon, url }) {

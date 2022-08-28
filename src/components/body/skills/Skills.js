@@ -50,6 +50,7 @@ const skillsGroups = [
       { name: "Bull", icon: "", url: "https://github.com/OptimalBits/bull" },
       { name: "joi", icon: "", url: "https://joi.dev/" },
       { name: "Passport.js", icon: "", url: "https://www.passportjs.org/" },
+      { name: "Nodemailer", icon: "", url: "https://nodemailer.com/" },
       { name: "Helmet.js", icon: "", url: "https://helmetjs.github.io/" },
       { name: "Jest", icon: "devicon-jest-plain colored", url: "https://jestjs.io/" },
       { name: "gRPC", icon: "", url: "https://grpc.io/" },
