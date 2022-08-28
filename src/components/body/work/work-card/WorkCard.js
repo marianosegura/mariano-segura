@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkCard.css';
 
-function WorkCard({ company, role, dateStart, dateEnd, totalTime, companyLogo, companyUrl, description, workUrl }) {
+function WorkCard({ company, role, dateStart, dateEnd, totalTime, companyLogo, companyUrl, keyPoints, workUrl }) {
   return (
     <div className='work-card'>
       <a href={companyUrl} target="_blank" rel="noreferrer">
@@ -18,9 +18,11 @@ function WorkCard({ company, role, dateStart, dateEnd, totalTime, companyLogo, c
             Take a Look!
           </a>
         }
-        <p className='work-description'>{description}</p>
-        
-
+        <ul>
+        {keyPoints.map(point =>
+          <li className='work-description'>{point}</li>
+        )}
+        </ul>
       </div>
     </div>
   )

@@ -11,7 +11,11 @@ const works = [
     totalTime: "",
     companyLogo: "tec",
     companyUrl: "https://www.tec.ac.cr/",
-    description: "Development of the institutional website, implementing frontend web components in HTML, CSS/SASS and Javascript/JQuery. From Figma designs, for Drupal integration.",
+    keyPoints: [
+      "Development and maintenance of the institutional website.",
+      "Implementing frontend web components in HTML, CSS/SASS and Javascript/JQuery from Figma designs.",
+      "Integrating frontend web components in Drupal CMS using PHP Twig templates."
+    ],
     workUrl: "https://codepen.io/marianosegura"
   }
 ];
