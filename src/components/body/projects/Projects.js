@@ -5,6 +5,43 @@ import './Projects.css';
 
 const projects = [
   {
+    id: 10,
+    title: "Unidad de Postgrados Computación TEC",
+    about: "A thesis defense scheduling and management system for the graduate unit of the Computing Engineering School at the Tecnológico de Costa Rica. It digitizes the whole process, makes it more efficient, automates previously manual document generation and email sending.",
+    tags: ["Node.js", "Express.js", "Typescript", "Express Validator", "Nodemailer", "Mongoose", "MongoDB", "Angular", "PrimeNG"],
+    githubUrl: "https://github.com/MrLuis137/Proyecto-unidad-Postgrados",
+    images: [ 
+      { name: "postgrados-8.png", file: require('../../../assets/screenshots/postgrados-8.png') },
+      { name: "postgrados-7.png", file: require('../../../assets/screenshots/postgrados-7.png') },
+      { name: "postgrados-6.png", file: require('../../../assets/screenshots/postgrados-6.png') },
+      { name: "postgrados-9.png", file: require('../../../assets/screenshots/postgrados-9.png') },
+      { name: "postgrados-4.png", file: require('../../../assets/screenshots/postgrados-4.png') },
+      { name: "postgrados-3.png", file: require('../../../assets/screenshots/postgrados-3.png') },
+      { name: "postgrados-2.png", file: require('../../../assets/screenshots/postgrados-2.png') },
+      { name: "postgrados-5.png", file: require('../../../assets/screenshots/postgrados-5.png') },
+      { name: "postgrados-1.png", file: require('../../../assets/screenshots/postgrados-1.png') }
+    ]
+  },
+  {
+    id: 9,
+    title: "MEP Digital",
+    about: "Website to manage elementary school courses built with Node.js backend and React frontend. With email features to get list of students as pdf and receive registration password.",
+    tags: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Nodemon", "SendGrid", "React"],
+    githubUrl: "https://github.com/marianosegura/MEP_Digital_web",
+    images: [ 
+      { name: "mep-1.png", file: require('../../../assets/screenshots/mep-1.png') },
+      { name: "mep-2.png", file: require('../../../assets/screenshots/mep-2.png') },
+      { name: "mep-3.png", file: require('../../../assets/screenshots/mep-3.png') },
+      { name: "mep-4.png", file: require('../../../assets/screenshots/mep-4.png') },
+      { name: "mep-5.png", file: require('../../../assets/screenshots/mep-5.png') },
+      { name: "mep-6.png", file: require('../../../assets/screenshots/mep-6.png') },
+      { name: "mep-7.png", file: require('../../../assets/screenshots/mep-7.png') },
+      { name: "mep-8.png", file: require('../../../assets/screenshots/mep-8.png') },
+      { name: "mep-9.png", file: require('../../../assets/screenshots/mep-9.png') },
+      { name: "mep-10.png", file: require('../../../assets/screenshots/mep-10.png') },
+    ]
+  },
+  {
     id: 6,
     title: "Tickets Microservices",
     about: "Tickets e-commerce website built using microservices. Made with Node.js (Express.js), React (Next.js), NATS Streaming, MongoDB. With configuration files to be deployed with Kubernetes (Skaffold).",
@@ -50,25 +87,6 @@ const projects = [
       { name: "auctions-7.png", file: require('../../../assets/screenshots/auctions-7.png') },
       { name: "auctions-8.png", file: require('../../../assets/screenshots/auctions-8.png') },
       { name: "auctions-9.png", file: require('../../../assets/screenshots/auctions-9.png') },
-    ]
-  },
-  {
-    id: 9,
-    title: "MEP Digital",
-    about: "Website to manage elementary school courses built with Node.js backend and React frontend. With email features to get list of students as pdf and receive registration password.",
-    tags: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Nodemon", "SendGrid", "React"],
-    githubUrl: "https://github.com/marianosegura/MEP_Digital_web",
-    images: [ 
-      { name: "mep-1.png", file: require('../../../assets/screenshots/mep-1.png') },
-      { name: "mep-2.png", file: require('../../../assets/screenshots/mep-2.png') },
-      { name: "mep-3.png", file: require('../../../assets/screenshots/mep-3.png') },
-      { name: "mep-4.png", file: require('../../../assets/screenshots/mep-4.png') },
-      { name: "mep-5.png", file: require('../../../assets/screenshots/mep-5.png') },
-      { name: "mep-6.png", file: require('../../../assets/screenshots/mep-6.png') },
-      { name: "mep-7.png", file: require('../../../assets/screenshots/mep-7.png') },
-      { name: "mep-8.png", file: require('../../../assets/screenshots/mep-8.png') },
-      { name: "mep-9.png", file: require('../../../assets/screenshots/mep-9.png') },
-      { name: "mep-10.png", file: require('../../../assets/screenshots/mep-10.png') },
     ]
   },
   {
