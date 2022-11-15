@@ -76,7 +76,6 @@ const projects = [
     title: "Reactivities",
     about: "Activity-based social media website. Includes features such as email registration confirmation, infinite scrolling and live comments chat (websockets).",
     tags: ["React", "Typescript", "MobX", "Semantic UI", "Formik", "ASP.Net Core", "SignalR", "SendGrid", "Cloudinary", "Entity Framework", "JWT", "PostgreSQL"],
-    demoUrl: "https://the-reactivities.herokuapp.com/",
     githubUrl: "https://github.com/marianosegura/Reactivities",
     images: [ 
       { name: "reactivities-4.png", file: require('../../../assets/screenshots/reactivities-4.png') },
@@ -96,7 +95,6 @@ const projects = [
     title: "MEAN Posts",
     about: "MEAN stack website about posts. Includes pagination.",
     tags: ["Angular", "Node", "Expres.js", "Angular Material", "JWT", "Pagination", "MongoDB"],
-    demoUrl: "https://the-mean-posts.herokuapp.com/",
     githubUrl: "https://github.com/marianosegura/MEAN-Posts",
     images: [ 
       { name: "posts-1.png", file: require('../../../assets/screenshots/posts-1.png') },
@@ -110,7 +108,6 @@ const projects = [
     title: "YelpCamp",
     about: "Campgrounds website to see, post and review camping spots.",
     tags: ["Node", "Express.js", "EJS", "Bootstrap", "MongoDB", "JWT", "Cloudinary", "Mapbox"],
-    demoUrl: "https://the-yelpcamp.herokuapp.com/",
     githubUrl: "https://github.com/marianosegura/YelpCamp",
     images: [ 
       { name: "yelp-1.png", file: require('../../../assets/screenshots/yelp-1.png') },
@@ -126,7 +123,6 @@ const projects = [
     title: "React Colors",
     about: "Color palette app. Focused on responsiveness and animations.",
     tags: ["React", "Material UI", "JSS"],
-    demoUrl: "https://massive-colors.herokuapp.com/",
     githubUrl: "https://github.com/marianosegura/React-Colors",
     images: [ 
       { name: "colors-1.png", file: require('../../../assets/screenshots/colors-1.png') },
@@ -142,7 +138,6 @@ const projects = [
     title: "Recipe Book",
     about: "Cook app to manage recipes and a shopping list.",
     tags: ["Angular", "Bootstrap", "NgRx", "Firebase"],
-    demoUrl: "https://angular-course-60904.web.app/",
     githubUrl: "https://github.com/marianosegura/Recipe-Book",
     images: [ 
       { name: "recipes-2.png", file: require('../../../assets/screenshots/recipes-2.png') },
