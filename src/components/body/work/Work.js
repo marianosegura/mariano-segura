@@ -7,14 +7,14 @@ const works = [
     company: "Tecnológico de Costa Rica",
     role: "Web Developer Assistant",
     dateStart: "Feb 2022",
-    dateEnd: "present",
-    totalTime: "",
+    dateEnd: "Nov 2022",
+    totalTime: "10 months",
     companyLogo: "tec",
     companyUrl: "https://www.tec.ac.cr/",
     keyPoints: [
-      "Development and maintenance of the institutional website.",
-      "Implementing frontend web components in HTML, CSS/SASS and Javascript/JQuery from Figma designs.",
-      "Integrating frontend web components in Drupal CMS using PHP Twig templates."
+      "Contributed to the development and migration of the university website.",
+      "Implemented frontend web components in HTML, CSS/SASS and Javascript/JQuery from Figma designs.",
+      "Integrated frontend web components in Drupal CMS using PHP Twig templates."
     ],
     workUrl: "https://codepen.io/marianosegura"
   }
