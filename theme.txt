@@ -1,4 +1,0 @@
-light: #0fb1c6
-dark: #191d46
-accent: #19e4d9
-design reference: https://www.youtube.com/watch?v=j0yZc2yfa7o&ab_channel=Overreacted
