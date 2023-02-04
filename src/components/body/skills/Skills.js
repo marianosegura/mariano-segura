@@ -2,17 +2,20 @@ import React, { Fragment } from 'react';
 import SkillCard from './skill-card/SkillCard';
 import './Skills.css';
 
+
 const skillsGroups = [
   {
     title: "Frontend",
     skills: [  
       { name: "React", icon: "devicon-react-original colored", url: "https://reactjs.org/" },
       { name: "Angular", icon: "devicon-angularjs-plain colored", url: "https://angularjs.org/" },
+      { name: "Vue", icon: "", url: "https://vuejs.org/" },
       { name: "React Redux", icon: "devicon-redux-original colored", url: "https://react-redux.js.org/" },
       { name: "NgRx", icon: "", url: "https://ngrx.io/" },
       { name: "MobX", icon: "", url: "https://mobx.js.org/README.html" },
       { name: "Material UI", icon: "devicon-materialui-plain colored", url: "https://mui.com/" },
       { name: "Semantic UI", icon: "", url: "https://semantic-ui.com/" },
+      { name: "Materialize", icon: "", url: "https://materializecss.com/" },
       { name: "Bootstrap", icon: "devicon-bootstrap-plain colored", url: "https://getbootstrap.com/" },
       { name: "Angular Material", icon: "", url: "https://material.angular.io/" },
       { name: "SASS", icon: "devicon-sass-original colored", url: "https://sass-lang.com/" },
@@ -35,6 +38,7 @@ const skillsGroups = [
       { name: "Node.js", icon: "devicon-nodejs-plain colored", url: "https://nodejs.org/en/" },
       { name: "ASP.NET Core", icon: "devicon-dotnetcore-plain colored", url: "https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core" },
       { name: "Express.js", icon: "devicon-express-original colored", url: "https://expressjs.com/" },
+      { name: "Ruby On Rails", icon: "devicon-rails-plain-wordmark colored", url: "https://rubyonrails.org/" },
       { name: "Docker", icon: "devicon-docker-plain colored", url: "https://www.docker.com/" },
       { name: "Kubernetes", icon: "devicon-kubernetes-plain colored", url: "https://kubernetes.io/" },
       { name: "Docker Compose", icon: "", url: "https://docs.docker.com/compose/" },
@@ -60,9 +64,11 @@ const skillsGroups = [
       { name: "Dapper", icon: "", url: "https://github.com/DapperLib/Dapper" },
       { name: "AutoMapper", icon: "", url: "https://automapper.org/" },
       { name: "Fluent Validation", icon: "", url: "https://docs.fluentvalidation.net/en/latest/" },
+      { name: "Devise", icon: "", url: "https://github.com/heartcombo/devise/" },
       { name: "C#", icon: "devicon-csharp-plain colored", url: "https://docs.microsoft.com/en-us/dotnet/csharp/" },
       { name: "Java", icon: "devicon-java-plain colored", url: "https://www.java.com/en/" },
       { name: "Python", icon: "devicon-python-plain colored", url: "https://www.python.org/" },
+      { name: "Ruby", icon: "devicon-ruby-plain colored", url: "https://www.ruby-lang.org/en/" },
       { name: "PHP", icon: "devicon-php-plain colored", url: "https://www.php.net/" }
     ]
   },
@@ -103,6 +109,7 @@ const skillsGroups = [
   }
 ];
 
+
 function Skills() {
   return (
     <div className='skills'>
@@ -133,5 +140,6 @@ function Skills() {
     </div>
   )
 }
+
 
 export default Skills
