@@ -39,6 +39,14 @@ const images = [
     name: "Introduction to Shell - DataCamp.png",
     file: require('../../../assets/certificates/Introduction to Shell - DataCamp.jpg')
   },
+  {
+    name: "The Complete Ruby on Rails Developer Course - Mashrur Hossain.png",
+    file: require('../../../assets/certificates/The Complete Ruby on Rails Developer Course - Mashrur Hossain.png')
+  },
+  {
+    name: "Vue The Complete Guide - Maximilian Schwarzmüller.png",
+    file: require('../../../assets/certificates/Vue The Complete Guide - Maximilian Schwarzmüller.png')
+  },
 ];
 
 function Certificates() {
