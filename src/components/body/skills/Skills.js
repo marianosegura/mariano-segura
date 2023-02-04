@@ -16,7 +16,6 @@ const skillsGroups = [
       { name: "Bootstrap", icon: "devicon-bootstrap-plain colored", url: "https://getbootstrap.com/" },
       { name: "Angular Material", icon: "", url: "https://material.angular.io/" },
       { name: "SASS", icon: "devicon-sass-original colored", url: "https://sass-lang.com/" },
-      { name: "JSS", icon: "", url: "https://cssinjs.org/?v=v10.9.1-alpha.2" },
       { name: "Formik", icon: "", url: "https://formik.org/" },
       { name: "EJS", icon: "", url: "https://ejs.co/" },
       { name: "Blazor", icon: "", url: "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" },
