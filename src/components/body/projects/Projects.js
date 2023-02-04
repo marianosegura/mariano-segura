@@ -42,6 +42,24 @@ const projects = [
     ]
   },
   {
+    id: 8,
+    title: "Auction Web",
+    about: "Auction website built with Node, Express and EJS. Built with heavy focus on stored functions/procedures and roles. Two database versions implemented: PostgreSQL and Oracle.",
+    tags: ["Stored Procedures", "Stored Functions", "Roles", "Node.js", "Express.js", "EJS", "Passport.js", "PostgreSQL", "Oracle Database"  ],
+    githubUrl: "https://github.com/marianosegura/Auction-Web",
+    images: [ 
+      { name: "auctions-1.png", file: require('../../../assets/screenshots/auctions-1.png') },
+      { name: "auctions-2.png", file: require('../../../assets/screenshots/auctions-2.png') },
+      { name: "auctions-3.png", file: require('../../../assets/screenshots/auctions-3.png') },
+      { name: "auctions-4.png", file: require('../../../assets/screenshots/auctions-4.png') },
+      { name: "auctions-5.png", file: require('../../../assets/screenshots/auctions-5.png') },
+      { name: "auctions-6.png", file: require('../../../assets/screenshots/auctions-6.png') },
+      { name: "auctions-7.png", file: require('../../../assets/screenshots/auctions-7.png') },
+      { name: "auctions-8.png", file: require('../../../assets/screenshots/auctions-8.png') },
+      { name: "auctions-9.png", file: require('../../../assets/screenshots/auctions-9.png') },
+    ]
+  },
+  {
     id: 6,
     title: "Tickets Microservices",
     about: "Tickets e-commerce website built using microservices. Made with Node.js (Express.js), React (Next.js), NATS Streaming, MongoDB. With configuration files to be deployed with Kubernetes (Skaffold).",
@@ -69,24 +87,6 @@ const projects = [
       { name: "netshop-3.png", file: require('../../../assets/screenshots/netshop-3.png') },
       { name: "netshop-4.png", file: require('../../../assets/screenshots/netshop-4.png') },
       { name: "netshop-5.png", file: require('../../../assets/screenshots/netshop-5.png') },
-    ]
-  },
-  {
-    id: 8,
-    title: "Auction Web",
-    about: "Auction website built with Node, Express and EJS. Built with heavy focus on stored functions/procedures and roles. Two database versions implemented: PostgreSQL and Oracle.",
-    tags: ["Stored Procedures", "Stored Functions", "Roles", "Node.js", "Express.js", "EJS", "Passport.js", "PostgreSQL", "Oracle Database"  ],
-    githubUrl: "https://github.com/marianosegura/Auction-Web",
-    images: [ 
-      { name: "auctions-1.png", file: require('../../../assets/screenshots/auctions-1.png') },
-      { name: "auctions-2.png", file: require('../../../assets/screenshots/auctions-2.png') },
-      { name: "auctions-3.png", file: require('../../../assets/screenshots/auctions-3.png') },
-      { name: "auctions-4.png", file: require('../../../assets/screenshots/auctions-4.png') },
-      { name: "auctions-5.png", file: require('../../../assets/screenshots/auctions-5.png') },
-      { name: "auctions-6.png", file: require('../../../assets/screenshots/auctions-6.png') },
-      { name: "auctions-7.png", file: require('../../../assets/screenshots/auctions-7.png') },
-      { name: "auctions-8.png", file: require('../../../assets/screenshots/auctions-8.png') },
-      { name: "auctions-9.png", file: require('../../../assets/screenshots/auctions-9.png') },
     ]
   },
   {
@@ -150,21 +150,7 @@ const projects = [
       { name: "colors-5.png", file: require('../../../assets/screenshots/colors-5.png') },
       { name: "colors-6.png", file: require('../../../assets/screenshots/colors-6.png') },
     ]
-  },
-  {
-    id: 4,
-    title: "Recipe Book",
-    about: "Cook app to manage recipes and a shopping list.",
-    tags: ["Angular", "Bootstrap", "NgRx", "Firebase"],
-    githubUrl: "https://github.com/marianosegura/Recipe-Book",
-    images: [ 
-      { name: "recipes-2.png", file: require('../../../assets/screenshots/recipes-2.png') },
-      { name: "recipes-1.png", file: require('../../../assets/screenshots/recipes-1.png') },
-      { name: "recipes-3.png", file: require('../../../assets/screenshots/recipes-3.png') },
-      { name: "recipes-4.png", file: require('../../../assets/screenshots/recipes-4.png') },
-      { name: "recipes-5.png", file: require('../../../assets/screenshots/recipes-5.png') },
-    ]
-  },
+  }
 ];
 
 function Projects() {
