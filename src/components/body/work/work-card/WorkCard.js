@@ -20,7 +20,7 @@ function WorkCard({ company, role, dateStart, dateEnd, totalTime, companyLogo, c
         }
         <ul>
         {keyPoints.map(point =>
-          <li className='work-description'>{point}</li>
+          <li className='work-description' key={point}>{point}</li>
         )}
         </ul>
       </div>
