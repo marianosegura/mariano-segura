@@ -4,6 +4,18 @@ import './Work.css';
 
 const works = [
   {
+    company: "Konrad Group",
+    role: "Full Stack Developer Intern",
+    dateStart: "Feb 2023",
+    dateEnd: "Jun 2023",
+    totalTime: "4 months",
+    companyLogo: "kg",
+    companyUrl: "https://www.konrad.com/",
+    keyPoints: [
+      "Implementing a web project using Java Spring Boot and React."
+    ],
+  },
+  {
     company: "Tecnológico de Costa Rica",
     role: "Web Developer Assistant",
     dateStart: "Feb 2022",

@@ -4,7 +4,7 @@ import './Skillcard.css';
 
 function SkillCard({ name, icon, url }) {
   return (
-    <a className='skill-card' href={url} target='_blank'>
+    <a className='skill-card' href={url} target='_blank' rel='noreferrer'>
       <div className='skill-icon'>
           {icon === '' ? 
             <img src={require(`../../../../assets/icons/${name}.png`)} alt={name} />
