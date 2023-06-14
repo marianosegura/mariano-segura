@@ -8,7 +8,7 @@ const works = [
     role: "Full Stack Developer Intern",
     dateStart: "Feb 2023",
     dateEnd: "Jun 2023",
-    totalTime: "4 months",
+    totalTime: "5 months",
     companyLogo: "kg",
     companyUrl: "https://www.konrad.com/",
     keyPoints: [
