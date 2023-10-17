@@ -4,21 +4,24 @@
   display: flex;
 }
 
-.work-card a {
+.work-logo-wrapper {
   height: 100%;
+  width: max-content;
+  margin-right: 12px;
+  border-radius: 4px;
 }
 
 .work-logo {
+  display: block;
   height: 100%;
-  margin-right: 12px;
   border-radius: 4px;
   border: 3px solid #191d46;
   transition: all 0.1s ease-in;
 }
-.work-logo:hover {
+.work-logo-wrapper:hover .work-logo,
+.work-logo-wrapper:focus .work-logo {
   transform: scale(1.1);
   box-shadow: 2px 2px darkturquoise;
-  margin-right: 18px;
 }
 
 .company-name {
@@ -73,7 +76,7 @@
     font-size: 18px;
   }
 
-  .work-logo {
+  .work-logo-wrapper {
     margin-bottom: 10px;
   }
 

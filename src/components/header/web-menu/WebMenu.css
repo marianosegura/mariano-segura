@@ -15,7 +15,8 @@
   margin-right: 16px; 
   transition: transform .2s;
 }
-.web-option:hover {
+.web-option:hover, 
+.web-option:focus-within {
   transform: scale(1.2);
 }
 .web-option:last-child {

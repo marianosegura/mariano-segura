@@ -1,20 +1,19 @@
 import React from 'react';
 import './Skillcard.css';
 
-
-function SkillCard({ name, icon, url }) {
-  return (
-    <a className='skill-card' href={url} target='_blank' rel='noreferrer'>
-      <div className='skill-icon'>
-          {icon === '' ? 
-            <img src={require(`../../../../assets/icons/${name}.png`)} alt={name} />
-            : <i className={icon}></i>
-          }
+const SkillCard = ({ name, icon, url }) => (
+  <div className="skill-card-container">
+    <a className="skill-card" href={url} target="_blank" rel="noreferrer">
+      <div className="skill-icon">
+        {icon === '' ? (
+          <img src={require(`assets/icons/${name}.webp`)} alt={name} />
+        ) : (
+          <i className={icon}></i>
+        )}
       </div>
-      <label className='skill-name'>{name}</label>
+      <label className="skill-name">{name}</label>
     </a>
-  )
-}
+  </div>
+);
 
-
-export default SkillCard
+export default SkillCard;

@@ -32,15 +32,15 @@
   border-radius: 4px;
   margin-right: 5px;
   margin-bottom: 4px;
-  transition: all 0.07s ease-in;
+  transition: transform 0.07s ease-in;
 }
 .project-tag:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 .project-links {
   display: flex;
-  margin: 6px 0px;
+  margin: 6px 0;
 }
 
 

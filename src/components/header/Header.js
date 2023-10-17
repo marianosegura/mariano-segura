@@ -3,7 +3,7 @@ import './Header.css';
 import MobileMenu from './mobile-menu/MobileMenu';
 import WebMenu from './web-menu/WebMenu';
 
-function Header() {
+const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const toggleSideBar = () => setIsSidebarOpen(!isSidebarOpen);
 
@@ -17,7 +17,7 @@ function Header() {
 
         <div className='mobile-menu'>
           {!isSidebarOpen &&
-            <div onClick={toggleSideBar}>
+            <div onClick={toggleSideBar} className='mobile-menu-open'>
               <i className="fi fi-rr-apps menu-icon"></i>
             </div>
           } 

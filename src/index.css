@@ -74,13 +74,14 @@ code {
   border-radius: 4px;
   font-size: 16px;
   margin-right: 8px;
-  transition: all 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+  transform-origin: top left;
 }
-.button-link:hover {
+.button-link:hover, 
+.button-link:focus {
   background-image: linear-gradient(#191d46, #191d46);
   box-shadow: 2px 2px darkturquoise;
   transform: scale(1.1);
-  font-size: 18px;
 }
 
 .button-link img {

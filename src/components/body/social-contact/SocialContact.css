@@ -14,7 +14,8 @@
   transition: transform .1s ease-in;
 }
 
-.social-icon:hover {
-  transform: scale(1.15);
+.social-contact-link:hover .social-icon,
+.social-contact-link:focus .social-icon {
+  transform: scale(1.15) translateY(-5px);
   filter: invert(78%) sepia(39%) saturate(5125%) hue-rotate(131deg) brightness(92%) contrast(101%);
 }

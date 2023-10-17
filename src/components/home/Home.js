@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import Body from '../body/Body';
-import Footer from '../footer/Footer';
-import Header from '../header/Header';
+import React, { useState, useEffect } from 'react';
+import Body from 'components/body/Body';
+import Footer from 'components/footer/Footer';
+import Header from 'components/header/Header';
 import './Home.css';
 
-function Home() {
+const Home = () => {
   const [showToTop, setShowToTop] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => setShowToTop(window.pageYOffset > 350));
+    window.addEventListener('scroll', () => setShowToTop(window.scrollY > 350));
   }, []);
 
   const scrollToTop = () => {
@@ -16,7 +16,7 @@ function Home() {
   };
 
   return (
-    <div className='home'>
+    <div className="home">
       <div>
         <Header />
       </div>
@@ -26,12 +26,14 @@ function Home() {
       <div>
         <Footer />
       </div>
-
-      {showToTop &&
-        <i className="fi-rr-angle-small-up back-to-top" onClick={scrollToTop}></i>
-      }
+      <i
+        className={`fi-rr-angle-small-up back-to-top ${
+          showToTop ? 'back-to-top--visible' : ''
+        }`}
+        onClick={scrollToTop}
+      ></i>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

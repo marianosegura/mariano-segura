@@ -3,6 +3,8 @@
   padding: 18px 12px;
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
   transition: all 0.5s;
 }
 .mobile.hide {
@@ -22,14 +24,26 @@
 
 .close-icon {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
   font-size: 28px;
-  cursor: pointer;
+  margin: 0;
   margin-bottom: -10px;
-  transition: all 0.2s;
+  border: solid;
+  padding: 0;
+  border: none;
+  background: none;
+
+  padding: 1px 4px;
+  transform-origin: top right;
+  transition: transform .2s ease-in-out;
 }
-.close-icon:hover {
-  font-size: 32px;
+.close-icon:hover, 
+.close-icon:focus-within {
+  transform: scale(1.15);
+}
+.close-icon .fi {
+  height: 32px;
 }
 
 .mobile-options {
@@ -37,19 +51,23 @@
   flex-direction: column;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   height: 100%;
 }
 
 .mobile-option {
   font-size: 24px;
-  margin: 12px 0px;
+  padding: 0 4px;
+  margin: 4px 0;
   display: flex;
-  transition: transform .2s;
+  transform-origin: top right;
+  transition: transform .2s ease-in-out;
 }
 .mobile-option a {
   display: flex;
+  gap: 8px;
 }
-.mobile-option:hover {
-  transform: scale(1.2);
+.mobile-option:hover,
+.mobile-option:focus-within {
+  transform: scale(1.15);
 }

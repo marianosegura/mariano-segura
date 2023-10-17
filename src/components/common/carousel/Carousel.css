@@ -14,7 +14,9 @@
 }
 
 .carousel-control-prev:hover .carousel-control-prev-icon,
-.carousel-control-next:hover .carousel-control-next-icon {
+.carousel-control-prev:focus .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon,
+.carousel-control-next:focus .carousel-control-next-icon {
   background-color: #191d46;
   transform: scale(1.1);
 }

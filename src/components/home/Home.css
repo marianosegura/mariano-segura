@@ -24,20 +24,24 @@ html {
 
 .back-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: -50px;
   right: 20px;
-  font-size: 30px;
+  font-size: 40px;
   background: #191d46;
   color: #fffefb;
   cursor: pointer;
   border-radius: 100%;
   border: none;
-  box-shadow: 0 5px 10px #ccc;
   display: flex;
-  transition: transform .3s;
+  box-shadow: 0 5px 10px #ccc;
+  transition: bottom .3s ease-in-out, transform .2s ease-in-out;
 }
 
-.back-to-top:hover {
+.back-to-top--visible {
+  bottom: 20px;
+}
+
+.back-to-top:hover, .back-to-top:focus {
   background: darkturquoise;
   transform: scale(1.2);
 }

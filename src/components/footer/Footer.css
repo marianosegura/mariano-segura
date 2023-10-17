@@ -11,8 +11,12 @@ footer {
 
 .footer-highlight {
   color: rgb(0, 181, 184);
+  display: inline-block;
+  transition: transform .2s ease-in-out;
 }
 
-footer a:hover .footer-highlight {
+footer a:hover .footer-highlight,
+footer a:focus .footer-highlight {
   color: darkturquoise;
+  transform: translateY(-5px);
 }
