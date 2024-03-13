@@ -1,15 +1,19 @@
 export const certificates = [
   {
+    name: 'Azure Fundamentals.webp',
+    file: require('assets/certificates/Azure Fundamentals.webp'),
+  },
+  {
+    name: 'Scrum Fundamentals Certified.webp',
+    file: require('assets/certificates/Scrum Fundamentals Certified.webp'),
+  },
+  {
     name: 'Microservices with Node JS and React - Stephen Grider.webp',
     file: require('assets/certificates/Microservices with Node JS and React - Stephen Grider.webp'),
   },
   {
     name: 'Microservices Architecture and Implementation on .NET 5 - Mehmet Ozkaya.webp',
     file: require('assets/certificates/Microservices Architecture and Implementation on .NET 5 - Mehmet Ozkaya.webp'),
-  },
-  {
-    name: 'Scrum Fundamentals Certified.webp',
-    file: require('assets/certificates/Scrum Fundamentals Certified.webp'),
   },
   {
     name: 'The Modern React Bootcamp - Colt Steele.webp',
