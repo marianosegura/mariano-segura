@@ -72,6 +72,8 @@ export const skillsGroups = [
 	{
 		title: "Tools",
 		skills: [
+		{ name: "Jira", icon: "devicon-jira-plain colored", url: "https://www.atlassian.com/software/jira" },
+		{ name: "Confluence", icon: "devicon-confluence-plain colored", url: "https://www.atlassian.com/software/confluence" },
 		{ name: "GitHub", icon: "devicon-github-original colored", url: "https://github.com/" },
 		{ name: "GitLab", icon: "", url: "https://about.gitlab.com/" },
 		{ name: "Postman", icon: "", url: "https://www.postman.com/" },
