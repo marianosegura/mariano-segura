@@ -21,14 +21,13 @@ const Body = () => {
       </section>
 
       <div className="separator" />
-
-      <section id="work" data-aos="fade-down">
-        <Work />
+      <section id="skills" data-aos="fade-up-right">
+        <Skills />
       </section>
 
       <div className="separator" />
-      <section id="skills" data-aos="fade-up-right">
-        <Skills />
+      <section id="work" data-aos="fade-down">
+        <Work />
       </section>
 
       <div className="separator" />

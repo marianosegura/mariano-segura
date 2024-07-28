@@ -3,14 +3,14 @@ import './Navigation.css';
 const Navigation = () => (
   <nav className="nav">
     <div className="nav-option">
-      <a className="navlink" href="#work">
-        <i className="fi fi-rr-briefcase option-icon"></i>Work
-      </a>
-    </div>
-
-    <div className="nav-option">
       <a className="navlink" href="#skills">
         <i className="fi fi-rr-square-terminal option-icon"></i>Skills
+      </a>
+    </div>
+    
+    <div className="nav-option">
+      <a className="navlink" href="#work">
+        <i className="fi fi-rr-briefcase option-icon"></i>Work
       </a>
     </div>
 
