@@ -1,11 +1,10 @@
-import React from 'react';
 import './About.css';
 
 const About = () => (
   <div className="about">
     <div className="about-top">
       <div className="about-info">
-        Hello, I am
+        Hi there, I am
         <br />
         <br /> <span className="info-name">Mariano Segura</span>
         <br />{' '}
@@ -14,10 +13,11 @@ const About = () => (
         </span>
         <br />
         <br />I love everything web development
+        <br />Welcome to my personal page!
       </div>
 
       <div className="about-illustration">
-        {/* illustration 'Javascript frameworks Flat Illustrations' by storyset.com */}
+        {/* illustration by storyset.com */}
         <img
           className="illustration spot"
           src={require('assets/illustration/spot.webp')}
@@ -34,9 +34,34 @@ const About = () => (
           alt="illustration code"
         />
         <img
-          className="illustration js-logo"
-          src={require('assets/illustration/js-logo.webp')}
-          alt="illustration js logo"
+          className="illustration plant"
+          src={require('assets/illustration/plant.webp')}
+          alt="illustration plant"
+        />
+        <img
+          className="illustration floor"
+          src={require('assets/illustration/floor.webp')}
+          alt="illustration floor"
+        />
+        <img
+          className="illustration numbers"
+          src={require('assets/illustration/numbers.webp')}
+          alt="illustration numbers"
+        />
+        <img
+          className="illustration boxes"
+          src={require('assets/illustration/boxes.webp')}
+          alt="illustration boxes"
+        />
+        <img
+          className="illustration bubble"
+          src={require('assets/illustration/bubble.webp')}
+          alt="illustration bubble"
+        />
+        <img
+          className="illustration laptop"
+          src={require('assets/illustration/laptop.webp')}
+          alt="illustration laptop"
         />
         <img
           className="illustration character"

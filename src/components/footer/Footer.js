@@ -1,9 +1,9 @@
-import React from 'react';
 import './Footer.css';
 
 const Footer = () => (
-  <footer>
+  <footer className="footer">
     <a
+      className="footer-link"
       href="https://github.com/marianosegura/mariano-segura"
       target="_blank"
       rel="noreferrer"

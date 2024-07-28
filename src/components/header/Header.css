@@ -1,8 +1,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  flex: 1;  /* strech all it can */
-  padding: 12px;
+  flex: 1;
+  padding: 0.75rem;
   align-items: center;
   position: relative;
 }
@@ -15,20 +15,19 @@
 
 .logo {
   display: flex;
-  font-size: 36px;
-  /* color: #19e4d9; */
-  color: #0fb1c6;
+  font-size: 2.25rem;
+  color: var(--light);
   font-weight: 800;
 }
 
 .menu-icon {
-  font-size: 34px;
+  font-size: 2.125rem;
   cursor: pointer;
   transition: all 0.2s;
 }
-.menu-icon:hover, 
+.menu-icon:hover,
 .menu-icon:focus {
-  font-size: 38px;
+  font-size: 2.375rem;
 }
 
 .mobile-menu {
@@ -39,16 +38,7 @@
 }
 
 @media (max-width: 800px) {
-.logo {
-  font-size: 24px;
-}
-}
-
-@media (max-width: 720px) {
-  .mobile-menu {
-    display: flex;
-  }
-  .web-menu {
-    display: none;
+  .logo {
+    font-size: 1.5rem;
   }
 }

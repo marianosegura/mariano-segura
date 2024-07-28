@@ -1,39 +1,60 @@
 export const works = [
-	{
-		company: "Konrad Group",
-		role: "Associate Software Developer",
-		dateStart: "Jul 2023",
-		dateEnd: "present",
-		totalTime: "",
-		companyLogo: "kg",
-		companyUrl: "https://www.konrad.com/",
-		keyPoints: [],
-	},
-	{
-		company: "Konrad Group",
-		role: "Full Stack Developer Intern",
-		dateStart: "Feb 2023",
-		dateEnd: "Jun 2023",
-		totalTime: "5 months",
-		companyLogo: "kg",
-		companyUrl: "https://www.konrad.com/",
-		keyPoints: [
-		"Implemented a web project using Java Spring Boot and React."
-		],
-	},
-	{
-		company: "Tecnológico de Costa Rica",
-		role: "Web Developer Assistant",
-		dateStart: "Feb 2022",
-		dateEnd: "Nov 2022",
-		totalTime: "10 months",
-		companyLogo: "tec",
-		companyUrl: "https://www.tec.ac.cr/",
-		keyPoints: [
-		"Contributed to the development and migration of the university website.",
-		"Implemented frontend web components in HTML, CSS/SASS and Javascript/JQuery from Figma designs.",
-		"Integrated frontend web components in Drupal CMS using PHP Twig templates."
-		],
-		workUrl: "https://codepen.io/marianosegura"
-	}
+  {
+    company: 'Konrad Group',
+    role: 'Software Developer',
+    dateStart: 'Jul 2024',
+    dateEnd: 'Present',
+    totalTime: '',
+    companyLogo: 'kg',
+    companyUrl: 'https://www.konrad.com/',
+    keyPoints: [
+      'Increased test coverage for a Java API using JUnit and Mockito, ensuring code robustness and reliability.',
+      "Enhanced and expanded technical API documentation, improving developer's understanding and ease of maintenance.",
+    ],
+  },
+  {
+    company: 'Konrad Group',
+    role: 'Associate Software Developer',
+    dateStart: 'Jul 2023',
+    dateEnd: 'Jul 2024',
+    totalTime: '1 year 1 month',
+    companyLogo: 'kg',
+    companyUrl: 'https://www.konrad.com/',
+    keyPoints: [
+      'Implemented GraphQL API endpoints in Java Spring WebFlux, leveraging non-blocking reactive streams to provide high-throughput and efficient resource utilization.',
+      'Reviewed code and provided technical guidance to interns, ensuring alignment with company code quality standards and best practices.',
+      'Fixed functionality and accessibility bugs in an existing React/Typescript project, enhancing user experience and compliance with accessibility standards.',
+      'Implemented and integrated custom WordPress block components in React and PHP, engineered with hydration to enhance SEO performance.',
+    ],
+  },
+  {
+    company: 'Konrad Group',
+    role: 'Full Stack Developer Intern',
+    dateStart: 'Feb 2023',
+    dateEnd: 'Jun 2023',
+    totalTime: '5 months',
+    companyLogo: 'kg',
+    companyUrl: 'https://www.konrad.com/',
+    keyPoints: [
+      'Implemented backend REST API endpoints in Java Spring Boot using layered architecture, ensuring maintainable and scalable code.',
+      'Implemented A11Y compliant accessible UI components in React/Typescript within a modular architecture, enhancing user experience and code reusability.',
+      'Implemented API JWT-based authentication and role-based authorization, leveraging Google Identity services for secure and seamless user management.',
+      'Designed the project SQL database and created Java Flyway database migrations to ensure consistent and version-controlled database changes.',
+    ],
+  },
+  {
+    company: 'Tecnológico de Costa Rica',
+    role: 'Web Developer',
+    dateStart: 'Feb 2022',
+    dateEnd: 'Nov 2022',
+    totalTime: '10 months',
+    companyLogo: 'tec',
+    companyUrl: 'https://www.tec.ac.cr/',
+    keyPoints: [
+      'Contributed to the development and migration of the university website, enhancing functionality and user experience.',
+      'Implemented responsive frontend web components using HTML, CSS/SASS, and JavaScript/jQuery, from Figma designs.',
+      'Integrated frontend web components in Drupal CMS using PHP Twig templates.',
+    ],
+    workUrl: 'https://codepen.io/marianosegura',
+  },
 ];

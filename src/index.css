@@ -6,13 +6,23 @@ Theme
 design reference: https://www.youtube.com/watch?v=j0yZc2yfa7o&ab_channel=Overreacted
 */
 
+:root {
+  --light: darkturquoise;
+  --dark: #191d46;
+  --accent: #19e4d9;
+  --background: #fffefb;
+  --light-grey: #969696;
+  --semi-transparent-light-grey: rgba(25, 29, 70, 0.2);
+
+}
+
 * {
-  color: #191d46;  
+  color: var(--dark);  
 }
 
 a {
   text-decoration: none;
-  color: #191d46 !important;  
+  color: var(--dark) !important;  
 }
 
 body {
@@ -20,7 +30,7 @@ body {
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fffefb;
+  background-color: var(----background);
 }
 
 code {
@@ -29,64 +39,13 @@ code {
 }
 
 .section-title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   display: flex;
 }
 
-.separator {
-  background-image: linear-gradient(to right top, #027bb2, #0098c8, #00b4d6, #00d0dd, #19ecdd);
-  height: 5px;
-  width: 100%;
-  border-radius: 4px;
-  margin: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
-
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: bounce;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-3px); }
-  100% { transform: translateY(0); }
-}
-
-.light-separator {
-  background-color: #f5f5f5;
-  height: 3px;
-  width: 100%;
-  border-radius: 4px;
-  margin-top: 16px;
-}
-
-.button-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(to right top, #026897, #027bb2, #0098c8, #00aacc, #00b4d6, #19ecdd);
-  color: white !important;
-  width: max-content;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 16px;
-  margin-right: 8px;
-  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
-  transform-origin: top left;
-}
-.button-link:hover, 
-.button-link:focus {
-  background-image: linear-gradient(#191d46, #191d46);
-  box-shadow: 2px 2px darkturquoise;
-  transform: scale(1.1);
-}
-
-.button-link img {
-  height: 16px;
-  display: flex;
-  align-items: center;
-  margin-right: 4px;
+@media (max-width: 720px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
 }

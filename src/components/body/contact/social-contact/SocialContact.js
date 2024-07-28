@@ -1,4 +1,3 @@
-import React from 'react';
 import './SocialContact.css';
 import { contacts } from 'data/contacts';
 
@@ -12,7 +11,7 @@ const SocialContact = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <div className="social-icon-div">
+        <div className="social-icon-wrapper">
           <img
             src={contact.icon}
             className="social-icon"

@@ -1,5 +1,5 @@
-import React from 'react';
-import SocialContact from 'components/body/social-contact/SocialContact';
+import SocialContact from './social-contact/SocialContact';
+import './Contact.css';
 
 const Contact = () => (
   <div className="contact">
@@ -7,7 +7,7 @@ const Contact = () => (
       <i className="fi fi-rr-user option-icon"></i>
       Contact
     </label>
-    <p>
+    <p className="contact-message">
       Want to get in touch? Email me at{' '}
       <strong>marianosegura.dev@gmail.com</strong> or contact me on my social
       media:

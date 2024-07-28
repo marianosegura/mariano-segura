@@ -1,4 +1,3 @@
-import React from 'react';
 import WorkCard from './work-card/WorkCard';
 import { works } from 'data/work';
 

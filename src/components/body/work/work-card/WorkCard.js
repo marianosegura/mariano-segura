@@ -1,4 +1,3 @@
-import React from 'react';
 import './WorkCard.css';
 
 const WorkCard = ({
@@ -27,8 +26,8 @@ const WorkCard = ({
     </a>
 
     <div className="work-info">
-      <h3 className="company-name">{company}</h3>
-      <h4 className="work-role">{role}</h4>
+      <h3 className="work-role">{role}</h3>
+      <h4 className="company-name">{company}</h4>
       <p className="work-dates">
         {dateStart} - {dateEnd}
         {totalTime ? ` · ${totalTime}` : ''}

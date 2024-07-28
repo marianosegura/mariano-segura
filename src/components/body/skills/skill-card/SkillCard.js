@@ -1,4 +1,3 @@
-import React from 'react';
 import './Skillcard.css';
 
 const SkillCard = ({ name, icon, url }) => (
@@ -6,7 +5,11 @@ const SkillCard = ({ name, icon, url }) => (
     <a className="skill-card" href={url} target="_blank" rel="noreferrer">
       <div className="skill-icon">
         {icon === '' ? (
-          <img src={require(`assets/icons/${name}.webp`)} alt={name} />
+          <img
+            className="skill-image"
+            src={require(`assets/icons/${name}.webp`)}
+            alt={name}
+          />
         ) : (
           <i className={icon}></i>
         )}

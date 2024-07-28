@@ -1,4 +1,3 @@
-import React from 'react';
 import './Carousel.css';
 
 const Carousel = ({ images, carouselName }) => (
@@ -10,7 +9,7 @@ const Carousel = ({ images, carouselName }) => (
             key={image.name}
             className={`carousel-item ${index === 0 ? 'active' : ''}`}
           >
-            <img src={image.file} className="d-block w-100" alt={image.name} />
+            <img src={image.file} className="carousel-image" alt={image.name} />
           </div>
         ))}
       </div>

@@ -1,5 +1,9 @@
 export const certificates = [
   {
+    name: 'Oracle Certified Professional Java SE 17 Developer.webp',
+    file: require('assets/certificates/Oracle Certified Professional Java SE 17 Developer.webp'),
+  },
+  {
     name: 'Azure Fundamentals.webp',
     file: require('assets/certificates/Azure Fundamentals.webp'),
   },

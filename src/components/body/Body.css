@@ -1,4 +1,25 @@
 .body {
-  padding: 12px;
-  padding-bottom: 36px;
+  padding: 0.75rem;
+  padding-bottom: 2.25rem;
+}
+
+.separator {
+  background-image: linear-gradient(to right top, #027bb2, #0098c8, #00b4d6, #00d0dd, #19ecdd);
+  height: 0.3125rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
 }

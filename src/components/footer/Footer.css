@@ -1,22 +1,28 @@
-footer {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: -20px;
-  margin-bottom: 5px;
+  margin-top: -1.25rem;
+  margin-bottom: 0.3125rem;
   font-weight: bold;
 }
 
 .footer-highlight {
-  color: rgb(0, 181, 184);
+  color: var(--light);
   display: inline-block;
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
-footer a:hover .footer-highlight,
-footer a:focus .footer-highlight {
-  color: darkturquoise;
-  transform: translateY(-5px);
+.footer-link:hover .footer-highlight,
+.footer-link:focus .footer-highlight {
+  color: var(--accent);
+  transform: translateY(-0.3125rem);
+}
+
+@media (max-width: 720px) {
+  .footer {
+    font-size: 0.875rem;
+  }
 }

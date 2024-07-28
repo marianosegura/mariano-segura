@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import About from './about/About';
 import Contact from './contact/Contact';
-import Projects from './projects/Projects';
 import Skills from './skills/Skills';
 import Work from './work/Work';
 import Certificates from './certificates/Certificates';
@@ -30,11 +29,6 @@ const Body = () => {
       <div className="separator" />
       <section id="skills" data-aos="fade-up-right">
         <Skills />
-      </section>
-
-      <div className="separator" />
-      <section id="projects" data-aos="fade-up-right">
-        <Projects />
       </section>
 
       <div className="separator" />

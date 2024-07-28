@@ -1,0 +1,38 @@
+.carousel-inner {
+  padding-bottom: 0.125rem;
+}
+
+.carousel-image {
+  display: block;
+  max-height: 60dvh;
+  width: auto;
+  max-width: 100%;
+  border: 0.1875rem solid var(--dark);
+  box-shadow: 0.125rem 0.125rem var(--light);
+  border-radius: 0.25rem;
+  margin: 0 auto;
+  transition: max-height 0.2s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  .carousel-image {
+    max-height: 45dvh;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 15%;
+  width: 40%;
+  background-color: var(--semi-transparent-light-grey);
+  border-radius: 0.1875rem;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-prev:focus .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon,
+.carousel-control-next:focus .carousel-control-next-icon {
+  background-color: var(--dark);
+  transform: scale(1.1);
+}

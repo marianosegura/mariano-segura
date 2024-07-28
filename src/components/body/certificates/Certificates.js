@@ -1,12 +1,11 @@
-import React from 'react';
-import Carousel from 'components/common/carousel/Carousel';
-import './Certificates.css';
+import Carousel from './carousel/Carousel';
 import { certificates } from 'data/certificates';
+import './Certificates.css';
 
 const Certificates = () => (
   <div className="certificates">
     <label className="section-title">
-      <i className="fi fi-rr-badge option-icon"></i>
+      <i className="fi fi-rr-badge option-icon icon-fix-left-margin"></i>
       Certificates
     </label>
 

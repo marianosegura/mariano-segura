@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
-import './Skills.css';
+import { Fragment } from 'react';
 import SkillCard from './skill-card/SkillCard';
 import { skillsGroups } from 'data/skills';
+import './Skills.css';
 
 const Skills = () => (
   <div className="skills">
     <label className="section-title">
-      <i className="fi fi-rr-pencil option-icon"></i>
+      <i className="fi fi-rr-square-terminal option-icon"></i>
       Skills
     </label>
 

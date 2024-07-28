@@ -1,11 +1,12 @@
 html {
-  scroll-behavior: smooth;  /* for the single page smooth code scroll */
+  scroll-behavior: smooth; 
 }
 
 .home {
   display: flex;
   flex-direction: column;
   width: 80%;
+  max-width: 1450px;
   margin: auto;
   transition: width 1s ease-in-out;
 }
@@ -13,35 +14,44 @@ html {
 @media (max-width: 920px) {
   .home {
     width: 90%;
-  } 
+  }
 }
 
 @media (max-width: 720px) {
   .home {
     width: 100%;
-  } 
+  }
 }
 
-.back-to-top {
+.back-to-top-button {
   position: fixed;
-  bottom: -50px;
-  right: 20px;
-  font-size: 40px;
-  background: #191d46;
-  color: #fffefb;
+  bottom: -3.125rem;
+  right: 1.25rem;
   cursor: pointer;
+  border-radius: 100%;
+  padding: 0;
+  background: var(--dark);
+  border: none;
+  display: flex;
+  box-shadow: 0 0.3125rem 0.625rem var(--semi-transparent-light-grey);
+  transition: bottom 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.back-to-top-icon {
+  font-size: 2.5rem;
+  color: var(--background);
   border-radius: 100%;
   border: none;
   display: flex;
-  box-shadow: 0 5px 10px #ccc;
-  transition: bottom .3s ease-in-out, transform .2s ease-in-out;
 }
 
-.back-to-top--visible {
-  bottom: 20px;
+.back-to-top-button--visible {
+  bottom: 1.25rem;
 }
 
-.back-to-top:hover, .back-to-top:focus {
-  background: darkturquoise;
+.back-to-top-button:hover,
+.back-to-top-button:focus {
+  background: var(--light);
   transform: scale(1.2);
+  border: 0.1875rem solid var(--dark);
 }
