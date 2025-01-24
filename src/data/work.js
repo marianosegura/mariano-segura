@@ -8,8 +8,8 @@ export const works = [
     companyLogo: 'kg',
     companyUrl: 'https://www.konrad.com/',
     keyPoints: [
-      'Increased test coverage for a Java API using JUnit and Mockito, ensuring code robustness and reliability.',
-      "Enhanced and expanded technical API documentation, improving developer's understanding and ease of maintenance.",
+      'Implemented modular and interactive React/Typescript components integrated with Contentstack CMS, enhancing content management flexibility and user experience.',
+      'Implemented API endpoints in MuleSoft Anypoint Studio using DataWeave, leveraging the Anypoint Platform cloud suite for scalable API management and Splunk for real-time monitoring.',
     ],
   },
   {
@@ -22,9 +22,9 @@ export const works = [
     companyUrl: 'https://www.konrad.com/',
     keyPoints: [
       'Implemented GraphQL API endpoints in Java Spring WebFlux, leveraging non-blocking reactive streams to provide high-throughput and efficient resource utilization.',
-      'Reviewed code and provided technical guidance to interns, ensuring alignment with company code quality standards and best practices.',
       'Fixed functionality and accessibility bugs in an existing React/Typescript project, enhancing user experience and compliance with accessibility standards.',
       'Implemented and integrated custom WordPress block components in React and PHP, engineered with hydration to enhance SEO performance.',
+      'Reviewed code and provided technical guidance to interns, ensuring alignment with company code quality standards and best practices.',
     ],
   },
   {
@@ -51,7 +51,6 @@ export const works = [
     companyLogo: 'tec',
     companyUrl: 'https://www.tec.ac.cr/',
     keyPoints: [
-      'Contributed to the development and migration of the university website, enhancing functionality and user experience.',
       'Implemented responsive frontend web components using HTML, CSS/SASS, and JavaScript/jQuery, from Figma designs.',
       'Integrated frontend web components in Drupal CMS using PHP Twig templates.',
     ],

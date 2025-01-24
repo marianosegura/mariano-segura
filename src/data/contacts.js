@@ -8,10 +8,5 @@ export const contacts = [
 		platform: "Github",
 		link: "https://github.com/marianosegura",
 		icon: require('assets/icons/github.webp')  // Github Icon by Unicons Font on Iconscout
-	},
-	{
-		platform: "Facebook",
-		link: "https://www.facebook.com/luismariano.segura",
-		icon: require('assets/icons/facebook.webp')  // Facebook Icon by Unicons Font on Iconscout
 	}
 ];
