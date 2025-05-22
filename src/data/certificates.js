@@ -36,14 +36,6 @@ export const certificates = [
     file: require('assets/certificates/The Web Developer Bootcamp 2022 - Colt Steele.webp'),
   },
   {
-    name: 'Introduction to Git - DataCamp.webp',
-    file: require('assets/certificates/Introduction to Git - DataCamp.webp'),
-  },
-  {
-    name: 'Introduction to Shell - DataCamp.webp',
-    file: require('assets/certificates/Introduction to Shell - DataCamp.webp'),
-  },
-  {
     name: 'The Complete Ruby on Rails Developer Course - Mashrur Hossain.webp',
     file: require('assets/certificates/The Complete Ruby on Rails Developer Course - Mashrur Hossain.webp'),
   },
