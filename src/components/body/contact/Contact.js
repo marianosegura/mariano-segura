@@ -9,7 +9,7 @@ const Contact = () => (
     </label>
     <p className="contact-message">
       Want to get in touch? Email me at{' '}
-      <strong>marianosegura.dev@gmail.com</strong> or contact me on my social
+      <strong>marianoseguradev@gmail.com</strong> or contact me on my social
       media:
     </p>
     <SocialContact />
