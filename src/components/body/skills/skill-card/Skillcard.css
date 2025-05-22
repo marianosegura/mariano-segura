@@ -15,7 +15,7 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 0.1875rem;
-  border: 0.1875rem solid var(--background);
+  border: 0.1875rem solid transparent;
   transition: transform 0.4s, box-shadow 0.3s, border 0.3s;
 }
 

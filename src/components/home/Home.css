@@ -49,8 +49,7 @@ html {
   bottom: 1.25rem;
 }
 
-.back-to-top-button:hover,
-.back-to-top-button:focus {
+.back-to-top-button:hover {
   background: var(--light);
   transform: scale(1.2);
   border: 0.1875rem solid var(--dark);
