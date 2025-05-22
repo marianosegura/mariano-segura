@@ -61,6 +61,8 @@ export const skillsGroups = [
 	{
 		title: "Tools",
 		skills: [
+		{ name: "Azure", icon: "devicon-azure-plain colored", url: "https://aws.amazon.com/" },
+		{ name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark colored", url: "https://aws.amazon.com/" },
 		{ name: "Jira", icon: "devicon-jira-plain colored", url: "https://www.atlassian.com/software/jira" },
 		{ name: "Confluence", icon: "devicon-confluence-plain colored", url: "https://www.atlassian.com/software/confluence" },
 		{ name: "GitHub", icon: "devicon-github-original colored", url: "https://github.com/" },
@@ -70,7 +72,6 @@ export const skillsGroups = [
 		{ name: "Swagger", icon: "", url: "https://swagger.io/" },
 		{ name: "Figma", icon: "", url: "https://www.figma.com/" },
 		{ name: "Diagrams.net", icon: "", url: "https://www.diagrams.net/" },
-		{ name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark colored", url: "https://aws.amazon.com/" },
 		{ name: "MongoDB Atlas", icon: "", url: "https://www.mongodb.com/atlas" },
 		{ name: "VS Code", icon: "devicon-vscode-plain colored", url: "https://code.visualstudio.com/" },
 		{ name: "Visual Studio", icon: "devicon-visualstudio-plain colored", url: "https://visualstudio.microsoft.com/" },
