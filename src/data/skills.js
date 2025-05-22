@@ -61,7 +61,7 @@ export const skillsGroups = [
 	{
 		title: "Tools",
 		skills: [
-		{ name: "Azure", icon: "devicon-azure-plain colored", url: "https://aws.amazon.com/" },
+		{ name: "Azure", icon: "devicon-azure-plain colored", url: "https://azure.microsoft.com/" },
 		{ name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark colored", url: "https://aws.amazon.com/" },
 		{ name: "Jira", icon: "devicon-jira-plain colored", url: "https://www.atlassian.com/software/jira" },
 		{ name: "Confluence", icon: "devicon-confluence-plain colored", url: "https://www.atlassian.com/software/confluence" },
