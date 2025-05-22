@@ -8,8 +8,10 @@ export const works = [
     companyLogo: 'kg',
     companyUrl: 'https://www.konrad.com/',
     keyPoints: [
+      'Reviewed code and provided technical guidance to interns on Java and React, ensuring alignment with company code quality standards and best practices.',
       'Implemented modular and interactive React/Typescript components integrated with Contentstack CMS, enhancing content management flexibility and user experience.',
-      'Implemented API endpoints in MuleSoft Anypoint Studio using DataWeave, leveraging the Anypoint Platform cloud suite for scalable API management and Splunk for real-time monitoring.',
+      'Implemented API endpoints in Java Spring MVC and MuleSoft Anypoint Studio, leveraging the Anypoint Platform cloud suite for scalable API management.',
+      'Troubleshot and fixed API logging errors using Splunk, collaborating with cross-functional teams to enhance log management practices and improve data quality.',
     ],
   },
   {
@@ -24,7 +26,6 @@ export const works = [
       'Implemented GraphQL API endpoints in Java Spring WebFlux, leveraging non-blocking reactive streams to provide high-throughput and efficient resource utilization.',
       'Fixed functionality and accessibility bugs in an existing React/Typescript project, enhancing user experience and compliance with accessibility standards.',
       'Implemented and integrated custom WordPress block components in React and PHP, engineered with hydration to enhance SEO performance.',
-      'Reviewed code and provided technical guidance to interns, ensuring alignment with company code quality standards and best practices.',
     ],
   },
   {
