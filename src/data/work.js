@@ -55,6 +55,6 @@ export const works = [
       'Implemented responsive frontend web components using HTML, CSS/SASS, and JavaScript/jQuery, from Figma designs.',
       'Integrated frontend web components in Drupal CMS using PHP Twig templates.',
     ],
-    workUrl: 'https://codepen.io/marianosegura',
+    workUrl: '',
   },
 ];
