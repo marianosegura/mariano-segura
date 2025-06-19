@@ -8,10 +8,6 @@ export const certificates = [
     file: require('assets/certificates/Azure Fundamentals.webp'),
   },
   {
-    name: 'Scrum Fundamentals Certified.webp',
-    file: require('assets/certificates/Scrum Fundamentals Certified.webp'),
-  },
-  {
     name: 'Microservices with Node JS and React - Stephen Grider.webp',
     file: require('assets/certificates/Microservices with Node JS and React - Stephen Grider.webp'),
   },
@@ -42,5 +38,9 @@ export const certificates = [
   {
     name: 'Vue The Complete Guide - Maximilian Schwarzmüller.webp',
     file: require('assets/certificates/Vue The Complete Guide - Maximilian Schwarzmüller.webp'),
+  },
+  {
+    name: 'Scrum Fundamentals Certified.webp',
+    file: require('assets/certificates/Scrum Fundamentals Certified.webp'),
   },
 ];
