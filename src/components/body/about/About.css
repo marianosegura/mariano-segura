@@ -9,14 +9,12 @@
 }
 
 .info-name {
-  color: var(--light);
   font-size: 2rem;
   font-weight: bold;
 }
 
 .info-title {
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 .about-illustration {
