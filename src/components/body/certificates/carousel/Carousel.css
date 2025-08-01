@@ -1,5 +1,6 @@
 .carousel-inner {
   padding-bottom: 0.125rem;
+  overflow: visible;
 }
 
 .carousel-image {

@@ -1,10 +1,23 @@
 export const works = [
   {
     company: 'Konrad Group',
-    role: 'Software Developer',
-    dateStart: 'Jul 2024',
+    role: 'Software Developer II',
+    dateStart: 'Jul 2025',
     dateEnd: 'Present',
     totalTime: '',
+    companyLogo: 'kg',
+    companyUrl: 'https://www.konrad.com/',
+    keyPoints: [
+      'Led the mentorship of newly hired software engineers, overseeing onboarding, task management, conducting QA, and code reviews while providing continuous technical coaching.',
+      'Translated client requirements into technical documentation, overseeing ticket creation to ensure organization standards alignment and technical feasibility.',
+    ],
+  },
+  {
+    company: 'Konrad Group',
+    role: 'Software Developer',
+    dateStart: 'Jul 2024',
+    dateEnd: 'Jul 2025',
+    totalTime: '1 year 1 month',
     companyLogo: 'kg',
     companyUrl: 'https://www.konrad.com/',
     keyPoints: [
