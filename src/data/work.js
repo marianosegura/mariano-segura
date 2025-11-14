@@ -8,8 +8,9 @@ export const works = [
     companyLogo: 'kg',
     companyUrl: 'https://www.konrad.com/',
     keyPoints: [
-      'Led the mentorship of newly hired software engineers, overseeing onboarding, task management, conducting QA, and code reviews while providing continuous technical coaching.',
-      'Translated client requirements into technical documentation, overseeing ticket creation to ensure organization standards alignment and technical feasibility.',
+      'Led cross-functional agile teams to deliver new product features, ensuring quality, scope alignment, and prioritization in the implementation process.',
+      'Translated high-level product requirements into clear, actionable technical specifications, bridging the gap between product, engineering, and business stakeholders.',
+      'Led the mentorship of new hires as a volunteer mentor, overseeing company onboarding, task management, conducting QA, and code reviews while providing continuous technical coaching.',
     ],
   },
   {
@@ -24,7 +25,6 @@ export const works = [
       'Reviewed code and provided technical guidance to interns on Java and React, ensuring alignment with company code quality standards and best practices.',
       'Implemented modular and interactive React/Typescript components integrated with Contentstack CMS, enhancing content management flexibility and user experience.',
       'Implemented API endpoints in Java Spring MVC and MuleSoft Anypoint Studio, leveraging the Anypoint Platform cloud suite for scalable API management.',
-      'Troubleshot and fixed API logging errors using Splunk, collaborating with cross-functional teams to enhance log management practices and improve data quality.',
     ],
   },
   {
