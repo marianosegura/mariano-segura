@@ -1,10 +1,20 @@
 export const works = [
   {
+    company: 'GFT Technologies',
+    role: 'Senior Software Engineer',
+    dateStart: 'Apr 2026',
+    dateEnd: 'Present',
+    totalTime: '',
+    companyLogo: 'gft',
+    companyUrl: 'https://www.gft.com/',
+    keyPoints: [],
+  },
+  {
     company: 'Konrad Group',
     role: 'Software Developer II',
     dateStart: 'Jul 2025',
-    dateEnd: 'Present',
-    totalTime: '',
+    dateEnd: 'Mar 2026',
+    totalTime: '9 months',
     companyLogo: 'kg',
     companyUrl: 'https://www.konrad.com/',
     keyPoints: [

@@ -17,6 +17,7 @@
   height: 4.6875rem;
   border-radius: 0.25rem;
   transition: transform 0.1s ease-in;
+  border: 2px solid var(--dark);
 }
 .work-logo-wrapper:hover .work-logo,
 .work-logo-wrapper:focus .work-logo {
