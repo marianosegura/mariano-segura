@@ -77,5 +77,14 @@ export const skillsGroups = [
 		{ name: "Visual Studio", icon: "devicon-visualstudio-plain colored", url: "https://visualstudio.microsoft.com/" },
 		{ name: "IntelliJ IDEA", icon: "", url: "https://www.jetbrains.com/idea/" },
 		]
+	},
+	{
+		title: "AI",
+		skills: [
+		{ name: "Github Copilot", icon: "", url: "https://github.com/copilot" },
+		{ name: "Claude", icon: "", url: "https://claude.ai/" },
+		{ name: "ChatGPT", icon: "", url: "https://openai.com/chatgpt" },
+		{ name: "Gemini", icon: "", url: "https://gemini.google.com/" }
+		]
 	}
 ];
